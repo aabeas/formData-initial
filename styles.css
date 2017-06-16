@@ -1,0 +1,109 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+Sample colors used:
+  dark-blue: #4189C7
+  grey: #D0D4D7
+  light-blue: #C9DEF0
+*/
+
+body {
+  border: 2px solid #D0D4D7;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  /*min-width: 450px;*/
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.header {
+  border-radius: 2px 2px 0px 0px;
+  background-color: #4189C7;
+  padding: 15px 0px 15px 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+input {
+  border: 1px solid #D0D4D7;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 10px 25px;
+  margin: 15px 25px;
+}
+
+select {
+  border: 1px solid #D0D4D7;
+  border-radius: ;
+  background-color: #FFFFFF;
+  padding: 10px 25px;
+  margin: 15px 25px;
+}
+
+textarea {
+  border: 1px solid #D0D4D7;
+  border-radius: 2px;
+  /*background-color: #FFFFFF;*/
+  min-height: 94px;
+  padding: 10px 25px;
+  margin: 15px 25px;
+}
+
+img {
+  border: 2px solid black;
+}
+
+.fields {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+button {
+  background-color: #4189C7;
+  padding: 10px 15px;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border-style: none;
+}
+
+.footer {
+  background-color: #C9DEF0;
+  border-radius: 0px 0px 2px 2px;
+  padding: 15px 0px 15px 25px;
+}
+
+/*---------------- Break Code ----------------*/
+
+@media screen and (min-width: 545px) {
+
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
